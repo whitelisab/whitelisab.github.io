@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Grayscale - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <title>Lisa Belgam White - Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/Favicon.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -19,7 +19,13 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid mb-sm-0" src="assets/img/LBW-logo-small.png" alt="LBW-logo"></a>
+                <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Lisa Belgam White</a> -->
+                <div class="social d-flex justify-content-center">
+                  <a class="mx-2" href="mailto: whitelisab@gmail.com"><i class="fas fa-envelope"></i></a>
+                  <a class="mx-2" href="https://www.linkedin.com/in/whitelisab/" target="blank"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="mx-2" href="https://github.com/whitelisab" target="blank"><i class="fab fa-github"></i></a>
+                </div>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -27,8 +33,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,9 +44,11 @@
         <header class="masthead">
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
-                    <a class="btn btn-primary js-scroll-trigger" href="#about">Get Started</a>
+                    <img class="img-fluid mb-3" src="assets/img/LBW-logo.png" alt="LBW-logo">
+                    <h1 class="mx-auto my-0 text-uppercase">Lisa Belgam White</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Software engineer based in Denver, CO</h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#about">About me</a>
+                    <hr class="d-lg-block my-5 mb-0" />
                 </div>
             </div>
         </header>
@@ -48,40 +57,97 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
+                        <h2 class="text-header-red mb-4">About</h2>
+                        <img class="img-fluid mb-3" id="headshot" src="assets/img/headshot.png" alt="LBW-logo">
                         <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/template-overviews/grayscale/">the preview page</a>
-                            . The theme is open source, and you can use it for any purpose, personal or commercial.
+                          I am a software engineer who is driven by creative problem solving, continuous learning, and teamwork, and am passionate about building applications that improve workflows and create efficiencies for the end user. My 10 years of experience working in higher education administration has given me a strong foundation in communication, collaboration, relationship building, project management, and people development. I thrive working in team-oriented organizations that value the diverse perspectives of their employees. Aside from coding, I enjoy hiking, skiing, cycling, tennis, scuba diving, and cooking.
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="" />
+                <div class="row contact-section bg-seafoam" id="skills">
+                    <div class="row">
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <div class="card py-4 h-100">
+                                <div class="card-body text-center">
+                                  <i class="fas fa-code text-yellow mb-2"></i>
+                                  <h4 class="text-uppercase m-0">Front End</h4>
+                                  <hr class="my-4" />
+                                  <div class="small text-black">JavaScript | HTML | CSS | React</div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3 mb-md-0">
+                          <div class="card py-4 h-100">
+                              <div class="card-body text-center">
+                                  <i class="fas fa-database text-yellow mb-2"></i>
+                                  <h4 class="text-uppercase m-0">Back End</h4>
+                                  <hr class="my-4" />
+                                  <div class="small text-black">Node.js | Express | MongoDB | MySQL | PostgreSQL | Redis</div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 mb-3 mb-md-0">
+                          <div class="card py-4 h-100">
+                              <div class="card-body text-center">
+                                  <i class="fas fa-vials text-yellow mb-2"></i>
+                                  <h4 class="text-uppercase m-0">Testing</h4>
+                                  <hr class="my-4" />
+                                  <div class="small text-black">Jest | Enzyme | Mocha | Chai</div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 mb-3 mb-md-0">
+                            <div class="card py-4 h-100">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-cloud-upload-alt text-yellow mb-2"></i>
+                                    <h4 class="text-uppercase m-0">Additional Tools</h4>
+                                    <hr class="my-4" />
+                                    <div class="small text-black">AWS | Git | GitHub | npm | Webpack | Babel | Docker</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Resume-->
+        <section class="resume-section" id="resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <h2 class="text-header-yellow mb-5">Resume</h2>
+                        <a href="https://drive.google.com/file/d/1f5gXd0EAW9BXi820ntqKx5mJ0WmdWuDF/view?usp=sharing" target="blank">
+                          <button class="btn btn-primary mx-auto" type="button">View Resume</button>
+                        </a>
+                        <hr class="my-5" />
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Projects-->
         <section class="projects-section bg-light" id="projects">
             <div class="container">
-                <!-- Featured Project Row-->
-                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="" /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-                        </div>
-                    </div>
-                </div>
                 <!-- Project One Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
+                    <div class="col-lg-6 bg-black">
+                      <a href="https://github.com/whitelisab/job-seeker-safe" target="blank">
+                        <img class="img-fluid" src="assets/img/jss-screenshot.png" alt="app-image" />
+                      </a>
+                    </div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <h4 class="text-primary">Job Seeker Safe</h4>
+                                    <p class="mb-0 text-white">As a former career services professional, I was inspired to build an app that would help job seekers stay organized and motivated during the job search process.</p>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
+                                    <br>
+                                    <p class="mb-0 text-white">JavaScript, React, Node.js, Express, MongoDB, Heroku</p>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                    <br>
+                                    <p class="mb-0 text-white">
+                                      <a href="https://github.com/whitelisab/job-seeker-safe" target="blank">GitHub</a> | <a href="https://youtu.be/ZMvVWmK3k2E" target="blank">YouTube Demo</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -89,80 +155,115 @@
                 </div>
                 <!-- Project Two Row-->
                 <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="" /></div>
+                    <div class="col-lg-6 bg-black">
+                      <a href="https://github.com/DeltaSDC/reviews" target="blank">
+                        <img class="img-fluid" src="assets/img/maze-screenshot.png" alt="" />
+                      </a>
+                    </div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                                    <h4 class="text-primary">MAZE Mercantile</h4>
+                                    <p class="mb-0 text-white">MAZE Mercantile is an e-commerce clothing retailer.<br>I inherited front-end legacy code for the reviews service and built out an optimized back-end that could handle high web traffic. I seeded the database with over 22 million records, optimized query times by 99% through indexing, and decreased latency by 89% through implementing a Redis cache and by horizontally scaling on AWS.</p>
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
+                                    <br>
+                                    <p class="mb-0 text-white">JavaScript, React, Node.js, Express, PostgreSQL, Redis, AWS</p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                    <br>
+                                    <p class="mb-0 text-white">
+                                      <a href="https://github.com/DeltaSDC/reviews" target="blank">GitHub</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <form class="form-inline d-flex">
-                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Enter email address..." />
-                            <button class="btn btn-primary mx-auto" type="submit">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
+                <!-- Project Three Row-->
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                  <div class="col-lg-6 bg-black">
+                    <a href="https://github.com/hrden05/hipsy-similar-products" target="blank">
+                      <img class="img-fluid" src="assets/img/hipsy-screenshot.png" alt="app-image" />
+                    </a>
+                  </div>
+                  <div class="col-lg-6">
+                      <div class="bg-black text-center h-100 project">
+                          <div class="d-flex h-100">
+                              <div class="project-text w-100 my-auto text-center text-lg-left">
+                                  <h4 class="text-primary">Hipsy</h4>
+                                  <p class="mb-0 text-white">Hipsy is an e-commerce site selling unique hand-crafted products. I created the store information, store products, ads, and similar products services for the Hipsy product detail page.</p>
+                                  <hr class="d-none d-lg-block mb-0 ml-0" />
+                                  <br>
+                                  <p class="mb-0 text-white">JavaScript, React, Node.js, Express, MongoDB, Docker, AWS, Jest</p>
+                                  <hr class="d-none d-lg-block mb-0 ml-0" />
+                                  <br>
+                                  <p class="mb-0 text-white">
+                                    <a href="https://github.com/hrden05/hipsy-similar-products" target="blank">GitHub</a> | <a href="https://youtu.be/rR_ECPC4_AU" target="blank">YouTube Demo</a>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
             </div>
         </section>
         <!-- Contact-->
-        <section class="contact-section bg-black">
+        <section class="contact-section bg-seafoam" id="contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="col-md-3 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
+                          <a href="mailto: whitelisab@gmail.com">
                             <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-                            </div>
+                              <i class="fas fa-envelope text-yellow mb-2"></i>
+                              <h4 class="text-uppercase m-0">Send an Email</h4>
+                              <hr class="my-4" />
+                          </div>
+                          </a>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                            </div>
-                        </div>
+                    <div class="col-md-3 mb-3 mb-md-0">
+                      <div class="card py-4 h-100">
+                        <a href="https://www.linkedin.com/in/whitelisab/" target="blank">
+                          <div class="card-body text-center">
+                              <i class="fab fa-linkedin-in text-yellow mb-2"></i>
+                              <h4 class="text-uppercase m-0">Connect on LinkedIn</h4>
+                              <hr class="my-4" />
+                          </div>
+                        </a>
+                      </div>
                     </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="col-md-3 mb-3 mb-md-0">
+                      <div class="card py-4 h-100">
+                        <a href="https://github.com/whitelisab" target="blank">
+                          <div class="card-body text-center">
+                              <i class="fab fa-github text-yellow mb-2"></i>
+                              <h4 class="text-uppercase m-0">View my GitHub</h4>
+                              <hr class="my-4" />
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
+                          <a href="https://calendly.com/whitelisab" target="blank">
                             <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <i class="fas fa-calendar-check text-yellow mb-2"></i>
+                                <h4 class="text-uppercase m-0">Book a time</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
                             </div>
+                          </a>
                         </div>
                     </div>
                 </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-                </div>
+                <!-- <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://www.linkedin.com/in/whitelisab/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="mx-2" href="https://github.com/whitelisab"><i class="fab fa-github"></i></a>
+                </div> -->
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Your Website 2020</div></footer>
+        <footer class="footer bg-seafoam small text-center text-white-50"><div class="container">Copyright © Lisa Belgam White 2020</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
