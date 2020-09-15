@@ -203,7 +203,7 @@ img {
 }
 
 #headshot {
-  border: solid white;
+  border: solid #E0A72B;
   border-radius: 50%;
 }
 
@@ -10272,6 +10272,11 @@ body {
   max-width: 20rem;
   font-size: 1rem;
 }
+.masthead hr {
+  border-color: #E0A72B;
+  border-width: 0.25rem;
+  width: 30%;
+}
 @media (min-width: 768px) {
   .masthead h1 {
     /* font-size: 4rem;
@@ -10305,7 +10310,8 @@ body {
   /* background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%); */
 }
 .about-section p {
-  margin-bottom: 5rem;
+  /* margin-bottom: 3rem; */
+  margin-top: 2rem;
 }
 
 .projects-section {
@@ -10329,7 +10335,7 @@ body {
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #1A85A0;
+    border-color: #E0A72B;
     border-width: 0.25rem;
     width: 30%;
   }
@@ -10354,11 +10360,16 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
+.resume-section hr {
+  border-color: #E0A72B;
+  border-width: 0.25rem;
+  width: 30%;
+}
 
 .contact-section {
   align-items: center;
   justify-content: center;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .contact-section .card {
   border: 0;
@@ -10385,7 +10396,8 @@ body {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  /* color: rgba(255, 255, 255, 0.3); */
+  color: #1A85A0;
 }
 .contact-section .social a:hover {
   color: #221F1F;
