@@ -560,10 +560,18 @@ pre code {
   .container {
     max-width: 720px;
   }
+  .projects-section img {
+    margin: 0 auto;
+  }
 }
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+  }
+  .projects-section img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 @media (min-width: 1200px) {
