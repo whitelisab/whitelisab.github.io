@@ -560,19 +560,19 @@ pre code {
   .container {
     max-width: 720px;
   }
-  .projects-section img {
+  /* .projects-section img {
     margin: 0 auto;
-  }
+  } */
 }
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
-  .projects-section img {
+  /* .projects-section img {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-  }
+  } */
 }
 @media (min-width: 1200px) {
   .container {
@@ -10328,6 +10328,16 @@ body {
 .projects-section .featured-text {
   padding: 2rem;
 }
+.projects-section hr {
+  border-color: #E0A72B;
+  border-width: 0.25rem;
+  width: 30%;
+}
+@media (min-width: 768px) {
+  .projects-section hr {
+    text-align: center;
+  }
+}
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
@@ -10342,11 +10352,7 @@ body {
   .projects-section .project-text {
     padding: 5rem;
   }
-  .projects-section .project-text hr {
-    border-color: #E0A72B;
-    border-width: 0.25rem;
-    width: 30%;
-  }
+
 }
 
 .resume-section {
