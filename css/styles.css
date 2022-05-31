@@ -165,7 +165,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #467370;
+  color: #737373;
   text-decoration: underline;
 }
 
@@ -10038,6 +10038,10 @@ a.text-black:hover, a.text-black:focus {
 }
 
 .text-white-50 {
+  color: #221F1F !important;
+}
+
+.text-gray-50 {
   color: #545454 !important;
 }
 
@@ -10412,6 +10416,17 @@ body {
 }
 .contact-section .social a:active {
   color: #fff;
+}
+
+.projects-link {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+
+}
+.projects-link:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
 .footer {
